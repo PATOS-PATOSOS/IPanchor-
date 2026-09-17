@@ -4,8 +4,8 @@ IPanchor es un software de configuración de red compatible con múltiples siste
 
 |COMAND|
 
-sh ipanchor.sh selftest
-powershell -ExecutionPolicy Bypass -File .\ipanchor.ps1
+sh ipanchor.sh selftest-linux
+powershell -ExecutionPolicy Bypass -File .\ipanchor.ps1-windows
 
 
 Asistente de terminal para fijar la red de un servidor nuevo (Linux, macOS o Windows). La configuración **se vuelve a aplicar en cada arranque**.
